@@ -4,7 +4,6 @@
     <head>
         <meta charset="UTF-8">
         <title>Crystals Collector Game</title>
-        
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Linking CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,9 +14,9 @@
     </head>
 
     <body>
-
-        <h1>Crystals Collector!</h1>  
-
+      <div class="jumbotron">
+        <h1 class="text-center">Crystals Collector!</h1>  
+          </div>
         <p>You will be given a random number at the start of the game.
 
         There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.
@@ -29,25 +28,26 @@
         Each time when the game starts, the game will change the values of each crystal.
         </p>
 
-        <div  id="randomNumberMain">
+        <div id="randomNumberMain">
+        </div>
+        <br>
+    
+        <aside>
+          <p> Wins: <span id="winsDisplay"></span>
+          </p>
+          <p>Losses: <span id="lossesDisplay"></span>
+          </p>
+        </aside>
+    
+       <div class="crystals">
+      
+       </div>
+        <div id="score">
+          Your total score is:
+        </div>
+        <div class="win-lose-announcement">
         
         </div>
-        
-        <aside>
-        <p>Wins: <span id="winDisplay"></span></p>
-        <p>Losses:<span id="lossesDisplay"></span> </p>
-        </aside>
-
-  <button><img id="blueCrystal" src="assets\images\bluecrystal.png" alt="bluecrystal" height="64px" width="64px"></button>
-  <button><img id="pinkCrystal" src="assets\images\pinkcrystal.png" alt="pinkcrystal" height="64px" width="64px"></button>
-  <button><img id="whiteCrystal" src="assets\images\whitecrystal.png" alt="whitecrystal" height="64px" width="64px"></button>
-  <button><img id="yellowCrystal" src="assets\images\yellowcrystal.png" alt="yellowcrystal" height="64px" width="64px"></button>
-        
-        <div id="score">
-        Your total score is:
-
-            0
-         </div>
 
         <!--linking javascript and jQuery-->  
         <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
