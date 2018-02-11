@@ -1,6 +1,6 @@
 # week-4-game
 
-#https://jenniferlang1921.github.io/crystal-collector-game/
+# https://jenniferlang1921.github.io/crystal-collector-game/
 
 Crystals Collector Game
 
