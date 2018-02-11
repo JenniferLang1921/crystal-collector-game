@@ -13,7 +13,7 @@ $(document).ready(function() {
    var images = [
        'assets/images/bluecrystal.png',
        'assets/images/pinkcrystal.png',
-       'assets/images/whitecrystal.png',
+       'assets/images/purplecrystal.png',
        'assets/images/yellowcrystal.png'
    ]
     
@@ -22,7 +22,7 @@ $(document).ready(function() {
         //console.log("Random number: " + randomNumber);
   
   
-       $("#randomNumberMain").text("Random Number: " + randomNumber);
+       $("#randomNumberMain").html("Random Number: <br/>" + randomNumber);
   
            console.log("Main Random Number: " + randomNumber);
   
@@ -51,7 +51,7 @@ $(document).ready(function() {
          theScore += num;  //add number to itself
   
          console.log(theScore);
-         $("#score").html("Your Total Score Is: " + theScore);
+         $("#score").html("Your Total: <br/>" + theScore);
   
          if (theScore > randomNumber) {
          losses++;

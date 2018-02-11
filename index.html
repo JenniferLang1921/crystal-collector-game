@@ -14,38 +14,64 @@
     </head>
 
     <body>
+        <div class="container">
+      
       <div class="jumbotron">
-        <h1 class="text-center">Crystals Collector!</h1>  
-          </div>
-        <p>You will be given a random number at the start of the game.
+        <h1 class="text-center title">Crystals Collector!</h1>  
+          
+        
+          
+        <div class ="row">
+            <span class="col-sm-1"></span>
+          <p class="instructions col-sm-10">You will be given a random number at the start of the game.
 
         There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.
 
-        You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+        You win the game by matching your total to the random number, you lose the game if your total goes above the random number.
 
         The value of each crystal is hidden from you until you click on it.
 
         Each time when the game starts, the game will change the values of each crystal.
-        </p>
+          </p>
+      <span class="col-sm-1"></span>
+        </div>
+      </div>
 
-        <div id="randomNumberMain">
+        <div class="crystals row">
+      
+                </div>
+        <br>
+        <br>
+
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+        
+            <div id="randomNumberMain" class="col-sm-4">
         </div>
         <br>
-    
-        <aside>
-          <p> Wins: <span id="winsDisplay"></span>
-          </p>
-          <p>Losses: <span id="lossesDisplay"></span>
-          </p>
-        </aside>
-    
-       <div class="crystals">
       
-       </div>
-        <div id="score">
-          Your total score is:
+        
+
+       <div class="col-sm-2">
+         <p class="wins">Wins: <span id="winsDisplay"></span>
+         </p>
+       <p class="losses">Losses: <span id="lossesDisplay"></span>
+       </p></div>
+       
+
+        <div id="score" class="totalDisplay col-sm-4">Your Total:
+                  
+          
         </div>
-        <div class="win-lose-announcement">
+        <div class="col-sm-1"></div>
+      </div>
+      
+        
+
+
+       
+         
         
         </div>
 

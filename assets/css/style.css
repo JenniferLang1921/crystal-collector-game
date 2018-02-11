@@ -1,18 +1,109 @@
+
+body {
+  background-image: url("assets/images/ep_naturalblack.png");
+  color: white;
+  text-align: center;
+}
+
+.container {
+  background: black;
+  padding-bottom: 80px;
+}
+.jumbotron {
+  background: black;
+  
+}
+
+h1 {
+  font-size: 100px;
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+  }
+
+
 .crystals {
-    display: flex;
+   
+   margin-top: 10px; 
+   margin-bottom: 20px;
     justify-content: space-around;
     align-items: center;
-  }
+} 
   
   .crystal {
-   
+    
     width: 150px;
     height: 150px;
+    transform: rotate(45deg);
+    box-shadow: 2px 2px 2px 2px gray;
+    transition: box-shadow 1s;
+    transition: all .2s ease-in-out;
   
   }
-  
-  img {
-    width: 50px;
-    height: 50px;
+  .crystal:hover {
+    box-shadow: 15px 15px 15px gray;
+    cursor: pointer;
+    transform: scale(1.1);
+    
   }
+
+  #randomNumberMain {
+    background-color: green;
+    color: black;
+    height: 250px;
+    font-size: 50px;
+    border: 1px solid magenta;
+    
+  }
+
+
+  .totalDisplay {
+    font-size: 30px;
+  }
+
+  #score {
+    background-color: green;
+    color: black;
+    height: 250px;
+    font-size: 50px;
+    border: 1px solid magenta;
+  }
+  
+  #winsDisplay{
+    font-size: 30px;
+  }
+
+  .wins, .losses {
+    font-size: 30px;
+    padding: 5%;
+    padding-top: 10%;
+    text-align: left;
+  }
+  
+  .instructions {
+    font-size: 24px;
+    border: 1px solid magenta;
+    margin-top: 30px;
+  }
+  
+  
+  
+  
+  
   
